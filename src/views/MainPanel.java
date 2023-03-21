@@ -12,5 +12,10 @@ public class MainPanel extends VBox{
         this.getChildren().add(this.comboPanel);
         this.getChildren().add(this.listPanel);
     }
-    
+    public ListPanel getListPanel(){
+        return this.listPanel;
+    }
+    public ComboPanel getComboPanel(){
+        return this.comboPanel;
+    }
 }
